@@ -38,29 +38,30 @@ Every explanation should connect to:
 ---
 
 ## Repo Structure
+```text
 .
 ├── weeks/
-│ ├── week-01/
-│ │ ├── plan.md
-│ │ └── daily/
-│ │ ├── day-01.md
-│ │ └── day-02.md
-│ └── week-02/...
+│   ├── week-01/
+│   │   ├── plan.md
+│   │   └── daily/
+│   │       ├── day-01.md
+│   │       └── day-02.md
+│   └── week-02/...
 ├── labs/
-│ ├── os/
-│ ├── memory/
-│ ├── compiler/
-│ ├── perf/
-│ └── distributed/
+│   ├── os/
+│   ├── memory/
+│   ├── compiler/
+│   ├── perf/
+│   └── distributed/
 ├── ml/
-│ ├── transformer-internals/
-│ └── profiling/
+│   ├── transformer-internals/
+│   └── profiling/
 ├── artifacts/
-│ ├── screenshots/
-│ ├── logs/
-│ └── diagrams/
+│   ├── screenshots/
+│   ├── logs/
+│   └── diagrams/
 └── README.md
-
+```
 
 ---
 
@@ -72,13 +73,13 @@ Each day (or session) includes:
 - ✅ References (specific sections)
 - ✅ Implementation steps
 - ✅ Artifact to submit
-- ✅ 1 Quiz question
-- ✅ 1 Reflection question
+- ✅ 1 quiz question
+- ✅ 1 reflection question
 
 ---
 
 ## Day Template (copy into `weeks/week-XX/daily/day-YY.md`)
-
+```md
 # Week XX — Day YY: <title>
 
 ## 1) Today’s Tasks (2–3 tasks)
@@ -87,7 +88,7 @@ Each day (or session) includes:
 - [ ] Task 3 (optional):
 
 ## 2) Concept Focus
-- 
+-
 
 ## 3) References
 - **Book:** <book name>, Ch. <x> / Section <y>
@@ -102,32 +103,29 @@ Steps:
 3.
 
 Commands:
-
+```bash
 # commands here
-5) Artifacts (Evidence)
+```
 
- Code: ...
+## 5) Artifacts (Evidence)
+- Code: ...
+- Logs: artifacts/logs/...
+- Screenshot: artifacts/screenshots/...
+- Diagram/Notes: artifacts/diagrams/...
 
- Logs: artifacts/logs/...
-
- Screenshot: artifacts/screenshots/...
-
- Diagram/Notes: artifacts/diagrams/...
-
-6) Results / Notes
-
+## 6) Results / Notes
 Observations:
 
 What surprised me:
 
 What I still don’t understand:
 
-7) Quiz (1 question)
-
+## 7) Quiz (1 question)
 Q:
 A:
 
-8) Reflection (1 question)
+## 8) Reflection (1 question)
+```
 
 ---
 
@@ -155,21 +153,18 @@ Artifacts must be **reproducible**:
 ```bash
 mkdir -p artifacts/{logs,screenshots,diagrams}
 mkdir -p weeks/week-01/daily
-Progress Index
-Week Plans
+```
 
-Week 01 Plan
+## Progress Index
+### Week Plans
+- Week 01 Plan
 
-Daily Logs
+### Daily Logs
+- Week 01 Day 01
 
-Week 01 Day 01
+## Current Focus (Exploration Phase — 8 weeks)
+- Systems/OS/Compiler fundamentals (70%)
+- ML internals & performance intuition (30%)
 
-Current Focus (Exploration Phase — 8 weeks)
-
-Systems/OS/Compiler fundamentals (70%)
-
-ML internals & performance intuition (30%)
-
-License
-
+## License
 Personal learning project. Reuse welcome with attribution.
