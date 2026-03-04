@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# C / C++ build outputs
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Common build directories
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+
+# Debug / crash artifacts
+*.dSYM/
+core
+core.*
+vgcore.*
+
+# GDB local history / session artifacts
+.gdb_history
+.gdbinit.local
+
+# Temporary editor/log artifacts
+*.swp
+*.tmp
