@@ -160,7 +160,7 @@ mkdir -p weeks/week-01/daily
 - Week 01 Plan
 
 ### Daily Logs
-- Week 01 Day 01
+- [Week 01 Day 01](weeks/week-01/daily/day-01.md)
 
 ## Current Focus (Exploration Phase — 8 weeks)
 - Systems/OS/Compiler fundamentals (70%)
